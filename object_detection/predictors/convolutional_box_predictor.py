@@ -20,6 +20,7 @@ from object_detection.core import box_predictor
 from object_detection.utils import static_shape
 
 slim = tf.contrib.slim
+slim = tf_slim
 
 BOX_ENCODINGS = box_predictor.BOX_ENCODINGS
 CLASS_PREDICTIONS_WITH_BACKGROUND = (
