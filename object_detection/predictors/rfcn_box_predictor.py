@@ -15,10 +15,11 @@
 
 """RFCN Box Predictor."""
 import tensorflow as tf
+import tf_slim as slim
 from object_detection.core import box_predictor
 from object_detection.utils import ops
 
-slim = tf.contrib.slim
+# slim = tf.contrib.slim
 
 BOX_ENCODINGS = box_predictor.BOX_ENCODINGS
 CLASS_PREDICTIONS_WITH_BACKGROUND = (
