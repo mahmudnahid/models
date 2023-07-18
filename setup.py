@@ -12,7 +12,8 @@ REQUIRED_PACKAGES = ['Pillow>=1.0',
                      'jupyter',
                      'matplotlib',
                      'tensorflow',
-                     'contextlib2']
+                     'contextlib2',
+                     'tf_slim']
 
 setup(
     name='object_detection',
